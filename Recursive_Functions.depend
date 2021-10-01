@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633097740 source:e:\project\hacktoberfest 2021\recursive_functions\main.c
+	<stdio.h>
+	<stdlib.h>
+
