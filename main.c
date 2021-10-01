@@ -53,4 +53,12 @@ return fibonacci(no - 1) + fibonacci(no - 2);
 int factorial(int no)
 {
     //factorials
+    if(no == 0)
+{
+return 1;
+}
+else
+{
+return no * factorial(no - 1);
+}
 }
