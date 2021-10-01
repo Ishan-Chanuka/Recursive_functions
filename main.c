@@ -36,7 +36,18 @@ int main()
 
 int fibonacci(int no)
 {
-    //fibonacci
+    if(no == 0)
+{
+return 0;
+}
+else if(no == 1)
+{
+return 1;
+}
+else
+{
+return fibonacci(no - 1) + fibonacci(no - 2);
+}
 }
 
 int factorial(int no)
